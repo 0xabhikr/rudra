@@ -83,7 +83,7 @@ export default function Home() {
                 style={{ borderColor: GOLD, color: "#111" }}
                 onClick={() =>
                   window.open(
-                    "https://wa.me/919876543210?text=Hi%20I%20need%20a%20website",
+                    "https://wa.me/919999999999?text=Hi%20I%20need%20a%20website",
                     "_blank"
                   )
                 }
