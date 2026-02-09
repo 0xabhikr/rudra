@@ -2,7 +2,7 @@
 
 import { Button } from "@/components/ui/button";
 import { SheetHeader, SheetTitle } from "@/components/ui/sheet";
-import { VisuallyHidden } from "../components/visually-hidden";
+
 
 
 const GOLD = "#dbad62";
