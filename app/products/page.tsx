@@ -57,7 +57,8 @@ export default function products() {
             <div>
               <p className="text-sm font-semibold">Nepa Rudraksha</p>
               <p className="mt-2 text-sm text-zinc-700 dark:text-zinc-300">
-                Authentic Nepali Rudraksha • Certified • Worldwide shipping
+                Authentic 
+Laxmi Rudrashya • Certified • Worldwide shipping
               </p>
             </div>
 

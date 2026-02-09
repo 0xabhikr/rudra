@@ -58,11 +58,13 @@ export default function Home() {
             </p>
 
             <h1 className="text-3xl font-semibold tracking-tight sm:text-4xl">
-              Buy Authentic Nepali Rudraksha from Nepal
+              Buy Authentic 
+Laxmi Rudrashya from Nepal
             </h1>
 
             <p className="max-w-prose text-zinc-700 dark:text-zinc-300">
-              Explore the world’s largest collection of genuine Nepali Rudraksha —
+              Explore the world’s largest collection of genuine 
+Laxmi Rudrashya —
               curated, verified, and guided by tradition.
             </p>
 
@@ -251,7 +253,8 @@ export default function Home() {
             <div>
               <p className="text-sm font-semibold">Nepa Rudraksha</p>
               <p className="mt-2 text-sm text-zinc-700 dark:text-zinc-300">
-                Authentic Nepali Rudraksha • Certified • Worldwide shipping
+                Authentic 
+Laxmi Rudrashya • Certified • Worldwide shipping
               </p>
             </div>
 
