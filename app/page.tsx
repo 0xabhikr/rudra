@@ -7,7 +7,7 @@ import { SheetHeader, SheetTitle } from "@/components/ui/sheet";
 
 const GOLD = "#dbad62";
 const GOLD_LIGHT_BG = "#f6eddc";
-const GOLD_HOVER = "#c89b55"; // slightly darker than #dbad62
+const GOLD_HOVER = "#c89b55";
 
 const mukhi = [
   { label: "Nirakar (0) Mukhi", href: "/rudraksha/0-mukhi" },
@@ -49,7 +49,6 @@ const faqs = [
 export default function Home() {
   return (
     <div className="min-h-screen font-sans text-zinc-900 dark:text-zinc-100">
-      {/* LIGHT GOLD BACKGROUND */}
       <main style={{ backgroundColor: GOLD_LIGHT_BG }} className="dark:bg-black">
         {/* Hero */}
         <section className="mx-auto grid max-w-7xl gap-10 px-4 py-12 md:grid-cols-2 md:items-center md:py-16">
@@ -68,7 +67,6 @@ export default function Home() {
             </p>
 
             <div className="flex flex-wrap gap-3">
-              {/* GOLD PRIMARY */}
               <Button
                 asChild
                 className="text-black hover:text-black"
@@ -78,19 +76,21 @@ export default function Home() {
               >
                 <a href="/rudraksha">View All Collection</a>
               </Button>
-
-              {/* GOLD OUTLINE */}
               <Button
                 variant="outline"
                 asChild
                 className="bg-white/40 hover:bg-white/70 dark:bg-white/5 dark:hover:bg-white/10"
                 style={{ borderColor: GOLD, color: "#111" }}
+                onClick={() =>
+                  window.open(
+                    "https://wa.me/919876543210?text=Hi%20I%20need%20a%20website",
+                    "_blank"
+                  )
+                }
               >
                 <a href="/consultation">Book a Consultation</a>
               </Button>
             </div>
-
-            {/* Trust strip */}
             <div className="grid grid-cols-2 gap-3 pt-6 sm:grid-cols-4">
               {[
                 ["Secure Payment", "Encrypted checkout"],
@@ -109,7 +109,6 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Hero visual placeholder */}
           <div className="relative overflow-hidden rounded-2xl border border-black/10 bg-white/60 shadow-sm backdrop-blur dark:border-white/10 dark:bg-white/5">
             <div className="absolute inset-0 opacity-35 [background:radial-gradient(circle_at_20%_20%,#dbad62,transparent_55%)]" />
             <div className="relative p-8">
@@ -129,7 +128,7 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Category grid (Mukhi) */}
+
         <section className="mx-auto max-w-7xl px-4 pb-14">
           <div className="mb-6 flex items-end justify-between gap-4">
             <div>
@@ -168,7 +167,6 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Featured In */}
         <section className="border-y border-black/10 bg-white/60 backdrop-blur dark:border-white/10 dark:bg-white/5">
           <div className="mx-auto max-w-7xl px-4 py-12">
             <h2 className="text-xl font-semibold">Featured In</h2>
@@ -204,7 +202,6 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Consultation banner */}
         <section className="mx-auto max-w-7xl px-4 py-14">
           <div className="relative overflow-hidden rounded-2xl border border-black/10 bg-black p-8 text-white shadow-sm dark:border-white/10">
             <div className="absolute inset-0 opacity-25 [background:radial-gradient(circle_at_25%_20%,#dbad62,transparent_45%)]" />
@@ -234,7 +231,6 @@ export default function Home() {
           </div>
         </section>
 
-        {/* FAQ */}
         <section className="mx-auto max-w-7xl px-4 pb-16">
           <h2 className="text-xl font-semibold">Frequently Asked Questions</h2>
           <div className="mt-6 grid gap-4 md:grid-cols-3">
@@ -250,7 +246,6 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Footer */}
         <footer className="border-t border-black/10 bg-white/60 backdrop-blur dark:border-white/10 dark:bg-white/5">
           <div className="mx-auto grid max-w-7xl gap-8 px-4 py-12 md:grid-cols-4">
             <div>

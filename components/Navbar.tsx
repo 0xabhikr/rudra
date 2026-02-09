@@ -12,9 +12,9 @@ const GOLD_HOVER = "#c89b55";
 
 const navLinks = [
     { label: "Home", href: "/" },
-    { label: "Rudraksha", href: "/rudraksha" },
-    { label: "Our Exclusive Collections", href: "/collections" },
-    { label: "Book a Consultation", href: "/consultation" },
+    { label: "Products", href: "/products" },
+    { label: "Contact", href: "/contact" },
+    { label: "Shop", href: "/shop" },
     { label: "FAQ", href: "/faq" },
 ];
 
