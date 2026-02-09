@@ -50,15 +50,15 @@ export default function shop() {
   return (
     <div className="min-h-screen font-sans text-zinc-900 dark:text-zinc-100">
       <main style={{ backgroundColor: GOLD_LIGHT_BG }} className="dark:bg-black">
-       
+
 
         <footer className="border-t border-black/10 bg-white/60 backdrop-blur dark:border-white/10 dark:bg-white/5">
           <div className="mx-auto grid max-w-7xl gap-8 px-4 py-12 md:grid-cols-4">
             <div>
               <p className="text-sm font-semibold">Nepa Rudraksha</p>
               <p className="mt-2 text-sm text-zinc-700 dark:text-zinc-300">
-                Authentic 
-Laxmi Rudrashya • Certified • Worldwide shipping
+                Authentic
+                Laxmi Rudrashya • Certified • Worldwide shipping
               </p>
             </div>
 

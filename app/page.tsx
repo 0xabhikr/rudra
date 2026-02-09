@@ -58,13 +58,13 @@ export default function Home() {
             </p>
 
             <h1 className="text-3xl font-semibold tracking-tight sm:text-4xl">
-              Buy Authentic 
-Laxmi Rudrashya from Nepal
+              Buy Authentic
+              Laxmi Rudrashya from Nepal
             </h1>
 
             <p className="max-w-prose text-zinc-700 dark:text-zinc-300">
-              Explore the world’s largest collection of genuine 
-Laxmi Rudrashya —
+              Explore the world’s largest collection of genuine
+              Laxmi Rudrashya —
               curated, verified, and guided by tradition.
             </p>
 
@@ -253,8 +253,8 @@ Laxmi Rudrashya —
             <div>
               <p className="text-sm font-semibold">Nepa Rudraksha</p>
               <p className="mt-2 text-sm text-zinc-700 dark:text-zinc-300">
-                Authentic 
-Laxmi Rudrashya • Certified • Worldwide shipping
+                Authentic
+                Laxmi Rudrashya • Certified • Worldwide shipping
               </p>
             </div>
 
